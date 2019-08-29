@@ -78,5 +78,7 @@ pygmentsuseclasses         = true
   twitter                  = "//twitter.com/namila" 
   instagram                = "//instagram.com/namila007"
   include_rss              = true                          # include RSS <link> tag in <head> and show RSS icon
+
   
   # analytics and disqus set by env
+
