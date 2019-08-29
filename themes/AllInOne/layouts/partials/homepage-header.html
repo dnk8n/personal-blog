@@ -106,7 +106,9 @@
             {{ if $.Site.Params.linkedin }}
               <a href="{{ $.Site.Params.linkedin }}" target="_blank" rel="noopener"><i class="fab fa-linkedin pr-1" aria-hidden="true"></i></a>
             {{ end }}
-
+            {{ if $.Site.Params.steam }}
+              <a href="{{ $.Site.Params.steam }}" target="_blank" rel="noopener"><i class="fab fa-steam pr-1" aria-hidden="true"></i></a>
+            {{ end }}
             {{ if $.Site.Params.facebook }}
               <a href="{{ $.Site.Params.facebook }}" target="_blank" rel="noopener"><i class="fab fa-facebook pr-1" aria-hidden="true"></i></a>
             {{ end }}
