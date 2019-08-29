@@ -79,7 +79,4 @@ pygmentsuseclasses         = true
   instagram                = "//instagram.com/namila007"
   include_rss              = true                          # include RSS <link> tag in <head> and show RSS icon
   
-  # analytics
-  googleAnalytics          = "your-google-analytic-id"
-    
-  disqusShortname          =  "namilamesite"  
+  # analytics and disqus set by env
