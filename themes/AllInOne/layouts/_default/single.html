@@ -16,10 +16,10 @@
 
         <!-- Spied element -->
         <div class="z-depth-1  post-wrapper white-bg single-post">
-          
+
           {{ partial "post-header.html" . }}
 
-          
+
           <div class="post-content markdown">
             {{ .Content }}
           </div>
@@ -65,14 +65,10 @@
               {{ end }}
             </div>
           </div>
-          <div class="sharebuttons">
-            {{ partial "sharebuttons.html" . }}
-          </div>
+
           <!-- /.Prev & Next -->
-          <div class="disqus">
-            {{ if not (in .Params.categories "projects") }}  
-              {{ partial "disqus.html" . }}
-            {{ end }}  
+          <div>
+            {{ partial "disqus.html" . }}
           </div>
         </div>
         <!-- /.Spied element -->
