@@ -26,6 +26,10 @@
       <li>{{ i18n "readingTime" .ReadingTime }}</li>
     {{ end }}
   </ul>
+  <ul class="post-meta li-x mt-1">
+    <li>{{ partial "sharebuttons.html" . }}</li>
+  </ul>
+  
   {{ with .Params.img }}
     <div class="view">
       <img src="{{ . | absURL }}" />
