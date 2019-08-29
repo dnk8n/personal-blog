@@ -1,4 +1,4 @@
-baseURL                   = "https://namile.me"
+baseURL                   = "https://namila.me"
 builddrafts                = false
 languageCode               = "zn-Hans"
 canonifyurls               = true
